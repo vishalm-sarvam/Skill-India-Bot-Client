@@ -1,0 +1,24 @@
+[project]
+name = "skill-india-demo"
+version = "0.1.0"
+description = "Python client for Sarvam Samvaad Conversational AI"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "sarvam-conv-ai-sdk>=0.1.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.0.0",
+]
+
+[tool.setuptools]
+py-modules = ["samvaad_client", "main"]
+
+[project.optional-dependencies]
+audio = [
+    "pyaudio>=0.2.13",
+]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0",
+]
