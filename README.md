@@ -33,11 +33,11 @@ uv pip install -e .
 
 ### 2. Configuration
 
-Your `.env` file is already configured:
+Create a `.env` file with your Samvaad credentials:
 
 ```env
-SAMVAAD_API_KEY=sk_samvaad_eiu5skb7_3f1FZVRpKLKX7JFcd1YOpsPl
-SIA_AGENT_ID=skill-india-4d97a76c-1134
+SAMVAAD_API_KEY=<your-samvaad-api-key>
+SIA_AGENT_ID=<your-agent-id>
 ```
 
 ### 3. Run
